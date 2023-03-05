@@ -1,0 +1,2443 @@
+.App {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  text-align: center;
+  transition: all 500ms ease;
+  overflow: scroll;
+}
+.Home {
+  position: absolute;
+  width: 950px;
+  height: 467.09px;
+  left: 335px;
+  top: 0px;
+  background: #ffffff;
+}
+.role {
+  position: absolute;
+  width: 500px;
+  height: 118px;
+  left: 25px;
+  top: 93px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 123.6%;
+  /* or 59px */
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.role_description {
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus. */
+
+  position: absolute;
+  width: 424px;
+  height: 88px;
+  left: 60px;
+  top: 229px;
+
+  /* H6 - 16px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.hiremebutton {
+  /* Button/Hire me */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+
+  position: absolute;
+  left: 60px;
+  top: 342px;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: bold;
+
+  background: #4682b4;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.rectangle1 {
+  /* Rectangle 52 */
+
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 558px;
+  top: 333px;
+
+  border: 2px solid rgba(0, 71, 255, 0.8);
+  border-radius: 20px;
+}
+.rectangle2 {
+  /* Rectangle 51 */
+
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 896px;
+  top: 69.66px;
+
+  border: 2px solid rgba(70, 130, 180, 0.8);
+  box-sizing: border-box;
+  transform: rotate(26.05deg);
+}
+.rectangle3 {
+  /* Ellipse 16 */
+
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 88px;
+  top: 422px;
+
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 20px;
+}
+.rectangle4 {
+  /* Ellipse 15 */
+
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 40px;
+  top: 30px;
+
+  border: 2px solid rgba(70, 130, 180, 0.8);
+  border-radius: 20px;
+}
+.rectangle5 {
+  /* Ellipse 12 */
+
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 520px;
+  top: 52px;
+
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 20px;
+}
+.rectangle6 {
+  /* Rectangle 52 */
+
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 400px;
+  top: 333px;
+
+  border: 2px solid rgba(0, 71, 255, 0.8);
+  box-sizing: border-box;
+  transform: rotate(26.05deg);
+}
+
+.leftmenu {
+  /* Rectangle 1 */
+  position: absolute;
+  width: 305px;
+  height: 1315px;
+  left: 0px;
+  top: 0px;
+
+  /* White */
+
+  background: #ffffff;
+}
+.profilepic {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+  background: #4682b4;
+}
+
+.name {
+  /* Rayan Adlardard */
+
+  position: absolute;
+  width: 142px;
+  height: 22px;
+  left: 77px;
+  top: 231px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.leftmenurole {
+  /* Font-end Developer */
+
+  position: absolute;
+  width: 143px;
+  height: 24px;
+  left: 66px;
+  top: 268px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.socialicons {
+  /* Social Icon */
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 5px;
+  top: 0px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.facebookicon {
+  /* Facebook */
+
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 40px;
+  top: 307px;
+  background: #4682b4;
+  border-radius: 20px;
+  border: none;
+}
+.instagramicon {
+  /* Instagram */
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 79px;
+  top: 307px;
+  background: #4682b4;
+  border-radius: 20px;
+  border: none;
+}
+.githubicon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 118px;
+  top: 307px;
+  background: #4682b4;
+  border-radius: 20px;
+  border: none;
+}
+.twittericon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 196px;
+  top: 307px;
+
+  background: #4682b4;
+  border-radius: 20px;
+  border: none;
+}
+.linkedinicon {
+  /* Linkeding */
+
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 157px;
+  top: 307px;
+  background: #4682b4;
+  border-radius: 20px;
+  border: none;
+}
+.line1 {
+  /* Line 6 */
+
+  position: absolute;
+  width: 220px;
+  height: 0px;
+  left: 30px;
+  top: 356px;
+
+  /* Background */
+  background: #f0f0f6;
+  border: 1.5px solid #f0f0f6;
+}
+.info {
+  /* About */
+
+  position: absolute;
+  width: 220px;
+  min-height: 126px;
+  left: 20px;
+  top: 381px;
+}
+.age {
+  /* Age: */
+
+  position: absolute;
+  width: 33px;
+
+  left: 10px;
+  top: 0px;
+  background: #4682b4;
+  padding: 3px;
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.givenage {
+  /* 24 */
+
+  position: absolute;
+  right: -15px;
+  top: 0px;
+  padding: 3px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-align: right;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.residence {
+  position: absolute;
+
+  left: 10px;
+  top: 40px;
+  background: #4682b4;
+  padding: 3px;
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.givenresidence {
+  position: absolute;
+  right: -15px;
+  top: 40px;
+  padding: 3px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-align: right;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.freelance {
+  position: absolute;
+
+  left: 10px;
+  top: 80px;
+  background: #4682b4;
+  padding: 3px;
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.freelancestatus {
+  /* Available */
+
+  position: absolute;
+  padding: 3px;
+  right: -15px;
+  top: 80px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-align: right;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Available */
+
+  color: #7eb942;
+}
+.address {
+  position: absolute;
+
+  left: 10px;
+  top: 120px;
+  background: #4682b4;
+  padding: 3px;
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.givenaddress {
+  position: absolute;
+  right: -15px;
+  top: 120px;
+  padding: 3px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-align: right;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.line2 {
+  /* Line 6 */
+
+  position: absolute;
+  width: 220px;
+  height: 0px;
+  left: 30px;
+  top: 550px;
+
+  /* Background */
+  background: #f0f0f6;
+  border: 1.5px solid #f0f0f6;
+}
+.languagesbox {
+  /* Languages */
+  position: absolute;
+  width: 220px;
+  min-height: 153px;
+  left: 30px;
+  top: 590px;
+  /* background: purple; */
+}
+.languagesheading {
+  /* Languages */
+
+  position: absolute;
+  width: 95px;
+  height: 22px;
+  left: -10px;
+  top: -20px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.progressbar1 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  top: 45px;
+
+  border: 0.5px solid #4682b4;
+  border-radius: 30px;
+}
+.progressbar1color {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  top: 45px;
+
+  background: #4682b4;
+  border-radius: 30px;
+}
+.languagename1 {
+  /* Bangla */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  left: -5px;
+  top: 20px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.languagenamepercentage1 {
+  /* 100% */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  right: -5px;
+  top: 20px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.languagename2 {
+  /* Bangla */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  left: 0px;
+  top: 55px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.languagenamepercentage2 {
+  /* 100% */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  right: -5px;
+  top: 55px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.progressbar2 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  top: 80px;
+
+  border: 0.5px solid #4682b4;
+  border-radius: 30px;
+}
+.progressbar2color {
+  position: absolute;
+  width: 180px;
+  height: 2px;
+  top: 80px;
+
+  background: #4682b4;
+  border-radius: 30px;
+}
+.languagename3 {
+  /* Bangla */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  left: -5px;
+  top: 90px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.languagenamepercentage3 {
+  /* 100% */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  right: -5px;
+  top: 90px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.progressbar3 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  top: 115px;
+
+  border: 0.5px solid #4682b4;
+  border-radius: 30px;
+}
+.progressbar3color {
+  position: absolute;
+  width: 110px;
+  height: 2px;
+  top: 115px;
+
+  background: #4682b4;
+  border-radius: 30px;
+}
+.line3 {
+  /* Line 6 */
+
+  position: absolute;
+  width: 220px;
+  height: 0px;
+  left: 30px;
+  top: 730px;
+
+  /* Background */
+  background: #f0f0f6;
+  border: 1.5px solid #f0f0f6;
+}
+.skillsbox {
+  /* Skills */
+  position: absolute;
+  width: 220px;
+  height: 242px;
+  left: 30px;
+  top: 760px;
+}
+.skillsheading {
+  position: absolute;
+  width: 95px;
+  height: 22px;
+  top: -10px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-align: left;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.skillname1 {
+  /* Bangla */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  top: 20px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.skillnamepercentage1 {
+  /* 100% */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  right: -5px;
+  top: 20px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.skillbar1 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+
+  top: 45px;
+
+  border: 0.5px solid #4682b4;
+  border-radius: 30px;
+}
+.skillbar1color {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  top: 45px;
+
+  background: #4682b4;
+  border-radius: 30px;
+}
+.skillname2 {
+  /* Bangla */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  top: 55px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.skillnamepercentage2 {
+  /* 100% */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  right: -5px;
+  top: 55px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.skillbar2 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+
+  top: 80px;
+
+  border: 0.5px solid #4682b4;
+  border-radius: 30px;
+}
+.skillbar2color {
+  position: absolute;
+  width: 180px;
+  height: 2px;
+  top: 80px;
+
+  background: #4682b4;
+  border-radius: 30px;
+}
+.skillname3 {
+  /* Bangla */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  top: 90px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.skillnamepercentage3 {
+  /* 100% */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  right: -5px;
+  top: 90px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.skillbar3 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+
+  top: 115px;
+
+  border: 0.5px solid #4682b4;
+  border-radius: 30px;
+}
+.skillbar3color {
+  position: absolute;
+  width: 180px;
+  height: 2px;
+  top: 115px;
+
+  background: #4682b4;
+  border-radius: 30px;
+}
+.skillname4 {
+  /* Bangla */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  top: 125px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.skillnamepercentage4 {
+  /* 100% */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  right: -5px;
+  top: 125px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.skillbar4 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+
+  top: 150px;
+
+  border: 0.5px solid #4682b4;
+  border-radius: 30px;
+}
+.skillbar4color {
+  position: absolute;
+  width: 110px;
+  height: 2px;
+  top: 150px;
+
+  background: #4682b4;
+  border-radius: 30px;
+}
+.skillname5 {
+  /* Bangla */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  top: 160px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.skillnamepercentage5 {
+  /* 100% */
+
+  position: absolute;
+  min-width: 49px;
+  min-height: 24px;
+  right: -5px;
+  top: 160px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.skillbar5 {
+  position: absolute;
+  width: 220px;
+  height: 2px;
+
+  top: 185px;
+
+  border: 0.5px solid #4682b4;
+  border-radius: 30px;
+}
+.skillbar5color {
+  position: absolute;
+  width: 110px;
+  height: 2px;
+  top: 185px;
+
+  background: #4682b4;
+  border-radius: 30px;
+}
+.line4 {
+  position: absolute;
+  width: 220px;
+  height: 0px;
+  left: 30px;
+  top: 980px;
+
+  /* Background */
+  background: #f0f0f6;
+  border: 1.5px solid #f0f0f6;
+}
+.extraskillsbox {
+  position: absolute;
+  width: 220px;
+  min-height: 153px;
+  left: 30px;
+  top: 1025px;
+}
+.extraskillsheading {
+  /* Extra Skills */
+
+  position: absolute;
+  width: 94px;
+  height: 22px;
+  top: -20px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-align: left;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.downloadcv {
+  /* Button/CV2 */
+
+  position: absolute;
+  width: 220px;
+  height: 40px;
+  left: 30px;
+  top: 1250px;
+  background: #4682b4;
+  border: none;
+  /* Download cv */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #2b2b2b;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.rightmenu {
+  /* Right Menu */
+
+  position: fixed;
+  width: 60px;
+  height: 700px;
+  right: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+.homeicon {
+  /* Ellipse 10 */
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 10px;
+  top: 100px;
+  border-radius: 20px;
+  background: #4682b4;
+}
+.fileicon {
+  /* Ellipse 10 */
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 10px;
+  top: 200px;
+  border-radius: 20px;
+  background: #4682b4;
+}
+.graduateicon {
+  /* Ellipse 10 */
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 10px;
+  top: 300px;
+  border-radius: 20px;
+  background: #4682b4;
+}
+.briefcaseicon {
+  /* Ellipse 10 */
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 10px;
+  top: 400px;
+  border-radius: 20px;
+  background: #4682b4;
+}
+.commenticon {
+  /* Ellipse 10 */
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 10px;
+  top: 500px;
+  border-radius: 20px;
+  background: #4682b4;
+}
+.hidebutton {
+  display: none;
+}
+.sizedbox1 {
+  top: 468px;
+  height: 65px;
+  position: absolute;
+  width: 950px;
+  left: 335px;
+  /* background: lawngreen; */
+}
+.whatcanido {
+  /* My Services */
+  position: absolute;
+  width: 950px;
+  height: 653px;
+  left: 335px;
+  top: 533px;
+  background: #e5e5e5;
+}
+.whatcanidoheading {
+  left: 350px;
+  position: absolute;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 123.6%;
+
+  /* identical to box height, or 40px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.wcidsubheading {
+  /* P-15px paragraph */
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  left: 100px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  /* or 160% */
+
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 1px;
+  align-items: start;
+  justify-items: center;
+  margin: auto;
+  width: 504px;
+  background: #e5e5e5;
+}
+.service1 {
+  position: absolute;
+  width: 300px;
+  height: 225px;
+  left: 0px;
+  top: 200px;
+  background: #ffffff;
+}
+.service2 {
+  position: absolute;
+  width: 300px;
+  height: 225px;
+  left: 320px;
+  top: 200px;
+  background: white;
+}
+.service3 {
+  position: absolute;
+  width: 300px;
+  height: 225px;
+  left: 640px;
+  top: 200px;
+  background: white;
+}
+.service4 {
+  position: absolute;
+  width: 300px;
+  height: 225px;
+  left: 0px;
+  top: 450px;
+  background: #ffffff;
+}
+.service5 {
+  position: absolute;
+  width: 300px;
+  height: 225px;
+  left: 320px;
+  top: 450px;
+  background: white;
+}
+.service6 {
+  position: absolute;
+  width: 300px;
+  height: 225px;
+  left: 640px;
+  top: 450px;
+  background: white;
+}
+.sizedbox2 {
+  top: 1186px;
+  height: 65px;
+  position: absolute;
+  width: 950px;
+  left: 335px;
+  /* background: lawngreen; */
+}
+.certifications {
+  position: absolute;
+  width: 950px;
+  height: 566px;
+  left: 335px;
+  top: 1251px;
+  background: #e5e5e5;
+}
+.certificationsheading {
+  position: absolute;
+  width: 216px;
+  height: 40px;
+  top: 0px;
+  left: 360px;
+
+  /* H2 - 32px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 123.6%;
+
+  /* identical to box height, or 40px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.certificationssubheading {
+  position: absolute;
+  width: 438px;
+  height: 68px;
+  left: 240px;
+  top: 50px;
+
+  /* P-15px paragraph */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* or 160% */
+
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.certificatecard1 {
+  position: absolute;
+  top: 200px;
+  background: white;
+  height: 350px;
+  width: 300px;
+}
+.blogcard1{
+  position: absolute;
+  top: 200px;
+  background: white;
+  height: 420px;
+  width: 300px; 
+}
+.blogcardimage1{
+  
+position: absolute;
+width: 300px;
+height: 260px;
+left: 0px;
+top:0px;
+
+background: #4682b4;
+}
+.makebusinesscard{
+  /* How to make web tempates */
+
+
+position: absolute;
+width: 249px;
+height: 22px;
+left: 15px;
+top: 265px;
+
+/* H4 - 18px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.6%;
+text-align: center;
+/* or 22px */
+
+text-transform: capitalize;
+
+/* Black */
+
+color: #2B2B2B;
+}
+.blogcarddescription{
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna */
+
+
+position: absolute;
+width: 268px;
+height: 70px;
+left: 15px;
+top: 290px;
+
+/* P-15px paragraph */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+text-transform: capitalize;
+font-feature-settings: 'calt' off, 'kern' off;
+
+/* Paragraph Font */
+
+color: #767676;
+}
+.learnmore{
+  /* Learn more */
+
+
+position: absolute;
+min-width: 100px;
+height: 22px;
+left: 15px;
+top: 360px;
+
+/* H4 - 18px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.6%;
+/* or 22px */
+
+text-transform: capitalize;
+
+color: #4682B4;
+cursor: pointer;
+}
+.certificatecard2 {
+  position: absolute;
+  top: 200px;
+  left: 320px;
+  background: white;
+  height: 350px;
+  width: 300px;
+}
+.blogcard2{
+  position: absolute;
+  top: 200px;
+  left: 320px;
+  background: white;
+  height: 420px;
+  width: 300px;
+}
+.certificatecard3 {
+  position: absolute;
+  top: 200px;
+  left: 640px;
+  background: white;
+  height: 350px;
+  width: 300px;
+}
+.blogcard3{
+  position: absolute;
+  top: 200px;
+  left: 640px;
+  background: white;
+  height: 420px;
+  width: 300px;
+}
+.coursera {
+  position: absolute;
+  min-height: 27px;
+  min-width: 110px;
+  top: 20px;
+  left: 20px;
+  background: #b0c4de;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.courseraname {
+  position: absolute;
+  top: -25px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+.coursename {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  min-width: 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.coursedescription {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  right: 20px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+  /* or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.sizedbox3 {
+  top: 1817px;
+  height: 65px;
+  position: absolute;
+  width: 950px;
+  left: 335px;
+  /* background: lawngreen; */
+}
+.education {
+  /* Education */
+  position: absolute;
+  top: 1882px;
+  width: 950px;
+  height: 815px;
+  left: 335px;
+  background: #e5e5e5;
+}
+.educationheading {
+  /* H2 - 32px */
+
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 123.6%;
+  /* identical to box height, or 40px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.educationsubheading {
+  /* P-15px paragraph */
+  position: absolute;
+  top: 70px;
+  left: 100px;
+  right: 100px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.educationdiv {
+  position: absolute;
+  width: 950px;
+  height: 632px;
+  left: 0px;
+  top: 200px;
+
+  /* White */
+
+  background: #ffffff;
+}
+.whdiv {
+  position: absolute;
+  width: 950px;
+  height: 632px;
+  left: 0px;
+  top: 200px;
+
+  /* White */
+
+  background: #ffffff;
+}
+.edu1 {
+  position: absolute;
+  width: 890px;
+  height: 150px;
+  left: 30px;
+  top: 50px;
+}
+.div1 {
+  /* Line 6 */
+
+  position: absolute;
+  width: 890px;
+  height: 0.5px;
+  left: 30px;
+  top: 220px;
+  border-radius: 40px;
+
+  /* Background */
+  background: #f0f0f6;
+  border: 1.5px solid #f0f0f6;
+}
+.wh1 {
+  position: absolute;
+  width: 890px;
+  height: 150px;
+  left: 30px;
+  top: 50px;
+}
+.edu2 {
+  position: absolute;
+  width: 890px;
+  height: 150px;
+  left: 30px;
+  top: 240px;
+}
+.div2 {
+  /* Line 6 */
+
+  position: absolute;
+  width: 890px;
+  height: 0.5px;
+  left: 30px;
+  top: 410px;
+  border-radius: 40px;
+
+  /* Background */
+  background: #f0f0f6;
+  border: 1.5px solid #f0f0f6;
+}
+.wh2 {
+  position: absolute;
+  width: 890px;
+  height: 150px;
+  left: 30px;
+  top: 240px;
+}
+.edu3 {
+  position: absolute;
+  width: 890px;
+  height: 150px;
+  left: 30px;
+  top: 430px;
+}
+.wh3 {
+  position: absolute;
+  width: 890px;
+  height: 150px;
+  left: 30px;
+  top: 430px;
+  beckground: white;
+}
+.universityoftoronto {
+  /* University of Toronto */
+
+  position: absolute;
+  min-width: 184px;
+  height: 22px;
+  left: -5px;
+  top: -5px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.student {
+  /* Student */
+
+  position: absolute;
+  min-width: 57px;
+  height: 24px;
+  left: 0px;
+  top: 40px;
+
+  /* P-15px paragraph */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.duration {
+  position: absolute;
+  width: 97px;
+  height: 10px;
+  left: 70px;
+  top: 50px;
+  padding-block: 3px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 100.9%;
+  background: #4682b4;
+  /* identical to box height, or 10px */
+
+  /* White */
+
+  color: #ffffff;
+}
+.cot {
+  /* Certificate of web training */
+
+  position: absolute;
+  width: 234px;
+  height: 22px;
+  left: 250px;
+  top: -3px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.cotdescription {
+  position: absolute;
+  width: 536px;
+  height: 100px;
+  left: 268px;
+  top: 25px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  /* or 160% */
+
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.sizedbox4 {
+  top: 2697px;
+  height: 65px;
+  position: absolute;
+  width: 950px;
+  left: 335px;
+  /* background: lawngreen; */
+}
+
+.workhistory {
+  /* Work History */
+  position: absolute;
+  width: 950px;
+  height: 815px;
+  left: 335px;
+  top: 2762px;
+  background: #e5e5e5;
+}
+.sizedbox5 {
+  top: 3577px;
+  height: 65px;
+  position: absolute;
+  width: 950px;
+  left: 335px;
+  /* background: lawngreen; */
+}
+.portfolio {
+  /* Portfolio */
+  position: absolute;
+  width: 950px;
+  height: 1195px;
+  left: 335px;
+  top: 3642px;
+  background: #ffffff;
+}
+.sizedbox6 {
+  top: 4837px;
+  height: 65px;
+  position: absolute;
+  width: 950px;
+  left: 335px;
+  /* background: lawngreen; */
+}
+.blog {
+  /* Blog */
+  position: absolute;
+  width: 950px;
+  height: 665px;
+  left: 335px;
+  top: 4902px;
+  background: #e5e5e5;
+}
+.blogheading{
+  position: absolute;
+width: 70px;
+height: 40px;
+left: 450px;
+top: 0px;
+
+
+/* H2 - 32px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 123.6%;
+/* identical to box height, or 40px */
+
+text-transform: capitalize;
+
+/* Black */
+
+color: #2B2B2B;
+}
+.blogsubheading{
+  position: absolute;
+  width: 700px;
+  height: 68px;
+  left: 130px;
+  top: 50px;
+
+  /* P-15px paragraph */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* or 160% */
+
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.blogdiv{
+  position: absolute;
+  width: 950px;
+  height: 465px;
+  left: 0px;
+  top: 150px;
+  background: white;
+}
+.sizedbox7 {
+  top: 5567px;
+  height: 65px;
+  position: absolute;
+  width: 950px;
+  left: 335px;
+  /* background: lawngreen; */
+}
+.leaveusyourinfo {
+  /* Leave us your info */
+  position: absolute;
+  width: 570px;
+  height: 755px;
+  left: 335px;
+  top: 5632px;
+  background: #e5e5e5;
+}
+.leaveusyourinfobody {
+  position: absolute;
+  width: 570px;
+  height: 670px;
+  left: 0px;
+  top: 85px;
+  background: white;
+}
+.fullnamehint {
+  position: absolute;
+  height: 40px;
+  left: 20px;
+  top: 90px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.fullnameform {
+  position: absolute;
+  height: 40px;
+  top: 130px;
+  width: 525px;
+  left: 20px;
+
+  border: none;
+  background: #e5e5e5;
+}
+.mailidhint {
+  position: absolute;
+  height: 40px;
+  left: 20px;
+  top: 180px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.emailform {
+  position: absolute;
+  height: 40px;
+  top: 220px;
+  width: 525px;
+  left: 20px;
+
+  border: none;
+  background: #e5e5e5;
+}
+.subjecthint {
+  position: absolute;
+  height: 40px;
+  left: 20px;
+  top: 270px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.subjectform {
+  position: absolute;
+  height: 40px;
+  top: 310px;
+  width: 525px;
+  left: 20px;
+
+  border: none;
+  background: #e5e5e5;
+}
+.yourmessagehint {
+  position: absolute;
+  height: 40px;
+  left: 20px;
+  top: 360px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.yourmessageform {
+  position: absolute;
+  height: 270px;
+  top: 400px;
+  width: 525px;
+  left: 20px;
+
+  border: none;
+  background: #e5e5e5;
+}
+.sendmessagebutton {
+  /* Send Message */
+
+  position: absolute;
+  width: 159px;
+  height: 35px;
+  left: 20px;
+  top: 700px;
+  background: #4682b4;
+  border: none;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #2b2b2b;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.contactinformation {
+  /* Contact information */
+  position: absolute;
+  width: 343px;
+  height: 756px;
+  left: 942px;
+  top: 5632px;
+  background: E5E5E5;
+}
+.contactinfotitle {
+  /* Contact information */
+
+  position: absolute;
+  width: 315px;
+  /* height: 40px; */
+  /* left: 946px; */
+  top: -35px;
+
+  /* H2 - 32px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 123.6%;
+  text-align: left;
+  /* identical to box height, or 40px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2b2b2b;
+}
+.location {
+  /* Location */
+
+  position: absolute;
+  width: 343px;
+  min-height: 210px;
+  /* left: 946px; */
+  top: 85px;
+  background: white;
+}
+.locationicon {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top: 10px;
+  left: 151.5px;
+
+  border-radius: 40px;
+  background: #4682b4;
+}
+.countryheading {
+  /* Country: */
+
+  position: absolute;
+  min-width: 75px;
+  min-height: 22px;
+  left: 35px;
+  top: 60px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-align: left;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.cityheading {
+  position: absolute;
+  min-width: 75px;
+  min-height: 22px;
+  left: 35px;
+  top: 100px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-align: left;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.streetheading {
+  position: absolute;
+  min-width: 75px;
+  min-height: 22px;
+  left: 35px;
+  top: 140px;
+
+  /* H4 - 18px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-align: left;
+  /* or 22px */
+
+  text-transform: capitalize;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.countryname {
+  position: absolute;
+  min-width: 75px;
+  min-height: 22px;
+  right: 35px;
+  top: 60px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-align: right;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.cityname {
+  position: absolute;
+  min-width: 75px;
+  min-height: 22px;
+  right: 35px;
+  top: 100px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-align: right;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.streetname {
+  position: absolute;
+  min-width: 75px;
+  min-height: 22px;
+  right: 35px;
+  top: 140px;
+
+  /* Paragraph Progress - 15 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  text-align: right;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+
+  /* Paragraph Font */
+
+  color: #767676;
+}
+.gmail {
+  /* Gmail */
+
+  position: absolute;
+  width: 343px;
+  min-height: 210px;
+  /* left: 946px; */
+  top: 315px;
+  background: white;
+}
+.mobile {
+  /* Mobile */
+
+  position: absolute;
+  width: 343px;
+  min-height: 210px;
+  /* left: 946px; */
+  top: 545px;
+  background: white;
+}
